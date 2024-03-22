@@ -1,0 +1,47 @@
+.navigation-menu{
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.navigation-menu  li {
+    margin:0px 20px;
+    
+}
+.active {
+    color: goldenrod !important;
+    font-weight: bold !important;
+  }
+.navigation-menu  li a {
+    color: white;
+    text-decoration:none
+}
+/* mobile view */
+.mbl-navigation{
+    list-style: none;
+}
+.mbl-navigation li{
+    margin-top: 20px;
+}
+
+.mbl-navigation li a{
+   text-decoration: none;
+   font-size: 1.4rem;
+   color: black;
+}
+.nav-cart {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    margin-left: -10px;
+    font-size: 14px;
+    border-radius: 20px;
+    background: red;
+    color: white;
+  }
+
+
